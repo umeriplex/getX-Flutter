@@ -4,4 +4,6 @@ class RoutesName{
   static String translationsPage = '/translationsPage';
   static String workerPage = '/workerPage';
   static String cartPage = '/cartPage';
+  static String opacityPage = '/opacityPage';
+  static String movingPage = '/movingPage';
 }
