@@ -6,4 +6,5 @@ class RoutesName{
   static String cartPage = '/cartPage';
   static String opacityPage = '/opacityPage';
   static String movingPage = '/movingPage';
+  static String favPage = '/favPage';
 }

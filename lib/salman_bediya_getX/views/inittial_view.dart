@@ -72,6 +72,20 @@ class InitialView extends StatelessWidget {
               },
               child: const Text('Cart View',style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),),
             ),
+            const SizedBox(height: 20,),
+            ElevatedButton(
+              onPressed: (){
+                Get.toNamed(RoutesName.opacityPage);
+              },
+              child: const Text('Opacity and Moving',style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),),
+            ),
+            const SizedBox(height: 20,),
+            ElevatedButton(
+              onPressed: (){
+                Get.toNamed(RoutesName.favPage);
+              },
+              child: const Text('Favorites View',style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),),
+            ),
           ],
         ),
       ),

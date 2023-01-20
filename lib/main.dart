@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       //home: const GetHeightGetWidth(),
       translations: AppTranslations(),
       locale: const Locale("en","US"),
-      initialRoute: RoutesName.opacityPage,
+      initialRoute: RoutesName.initial,
       getPages: RoutesController().getPages(),
       // getPages: [
       //   GetPage(name: '/', page: () => const GetHeightGetWidth()),
